@@ -1,0 +1,24 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Pytest & build artifacts
+.pytest_cache/
+build/
+dist/
+*.spec
+*.egg-info/
+
+# Local user snapshots / credentials / keys / hosts
+.sensorlinx_local_snapshot.json
+.sensorlinx_xtea.key
+.sensorlinx_hosts.json
+*.key
+*.pcap
+*.pcapng
